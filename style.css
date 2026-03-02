@@ -111,9 +111,20 @@ section {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+a.icon-box.about {
+    height: 101px;
+     justify-content: center;
+  align-items: center;
+}
+
+button.icon-box.about {
+    background: gray;
+    aspect-ratio: none;
+}
 .portfolio .gallery a {
   border: 5px solid var(--text-light);
-  display: block;
+  /* display: block; */
   margin-bottom: 30px;
   transition: 0.3s;
 }
