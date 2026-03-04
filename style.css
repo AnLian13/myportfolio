@@ -129,6 +129,15 @@ button.icon-box.about {
   transition: 0.3s;
 }
 
+a {
+    padding: 5px;
+}
+
+.gallerry {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
 .icon-box:hover {
   transform: scale(1.1);
   
